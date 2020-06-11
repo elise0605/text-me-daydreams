@@ -26,7 +26,7 @@ def hello():
     connection.close()
 
     resp = twilio.twiml.Response()
-    resp.message("We're so happy! We got your message and it's currently printing. Tx, Wade")
+    resp.message("We're so happy! We got your message and it's currently printing. Tx, Elise")
     return str(resp)
  
 if __name__ == "__main__":
